@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/fonts.css" />
     <link rel="stylesheet" href="./styles/media.css" />
@@ -22,7 +23,7 @@
       </ul>
     </header>
     <main>
-      <aside>
+      <aside data-aos="fade-up">
         <h2><span>Faça seu orçamento</span></h2>
         <h2>landing Page!</h2>
         <p>
@@ -58,5 +59,9 @@
         <img src="./components/assets/img-2.png" alt="Mulher roxa" />
       </article>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
