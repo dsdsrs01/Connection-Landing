@@ -106,13 +106,19 @@ input {
   margin-left: 10px;
 }
 .icon-insta {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   margin: 60px auto;
   margin-left: 50px;
 }
 .icon-zap {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   margin: 60px auto;
+}
+
+/*Page sobre*/
+.sobre-img {
+  width: 36rem;
+  height: 34rem;
 }
