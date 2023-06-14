@@ -15,9 +15,10 @@
   input {
     align-self: center;
   }
-  img {
+  .img img {
     display: none;
   }
+
   ul {
     text-align: center;
   }
@@ -42,9 +43,7 @@
   input {
     align-self: center;
   }
-  img {
-    display: none;
-  }
+
   ul {
     text-align: center;
   }
